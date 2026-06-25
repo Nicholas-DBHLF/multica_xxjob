@@ -6,6 +6,16 @@ export function createMulticaClient({ config, runCommand }) {
     ((args) => runMulticaCommand(config.multicaCmd, args));
 
   return {
+    async findAgentByName(name) {
+      const agents = await execute(['agent', 'list', '--output', 'json']);
+      return agents.find((agent) => agent.name === name) ?? null;
+    },
+
+    async findProjectByTitle(title) {
+      const projects = await execute(['project', 'list', '--output', 'json']);
+      return projects.find((project) => project.title === title) ?? null;
+    },
+
     async findIssueByExternalKey(externalKey) {
       const response = await execute([
         'issue',

@@ -153,3 +153,20 @@
 - 核心模块结构分析
 - 安装与运行方式
 - 与同类 Agent/视频生成项目的差异对比
+# PR Webhook Service
+
+This repository now also contains a lightweight webhook automation service for
+Multica.
+
+## Local Run
+
+```powershell
+Copy-Item .env.example .env.local
+./scripts/start-webhook.ps1
+```
+
+## Endpoints
+
+- `GET /healthz`
+- `POST /webhooks/github`
+- `POST /webhooks/gitcode`
