@@ -1,0 +1,20 @@
+{
+  "object_kind": "merge_request",
+  "event_type": "merge_request",
+  "user": {
+    "username": "wellx_term"
+  },
+  "project": {
+    "path_with_namespace": "qq_42262596/multica",
+    "git_http_url": "https://gitcode.com/qq_42262596/multica.git"
+  },
+  "object_attributes": {
+    "action": "open",
+    "iid": 8,
+    "title": "Refactor webhook flow",
+    "url": "https://gitcode.com/qq_42262596/multica/merge_requests/8",
+    "state": "opened",
+    "work_in_progress": false,
+    "source_branch": "feature/webhook"
+  }
+}
