@@ -1,0 +1,26 @@
+{
+  "action": "converted_to_draft",
+  "number": 1,
+  "pull_request": {
+    "number": 1,
+    "title": "WS-13: Create test.md",
+    "html_url": "https://github.com/Nicholas-DBHLF/multica_xxjob/pull/1",
+    "state": "open",
+    "merged": false,
+    "draft": true,
+    "head": {
+      "ref": "dev"
+    },
+    "user": {
+      "login": "Nicholas-DBHLF"
+    }
+  },
+  "repository": {
+    "name": "multica_xxjob",
+    "full_name": "Nicholas-DBHLF/multica_xxjob",
+    "clone_url": "https://github.com/Nicholas-DBHLF/multica_xxjob.git",
+    "owner": {
+      "login": "Nicholas-DBHLF"
+    }
+  }
+}
